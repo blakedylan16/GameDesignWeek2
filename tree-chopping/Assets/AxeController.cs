@@ -9,6 +9,8 @@ public class AxeController : MonoBehaviour
     private bool isChopping = false; // Prevent multiple swings
     private Vector3 originalScale; // Store the original scale
 
+    public int direction = 1; // Direction of the branch
+
     void Start()
     {
         // Store original scale
@@ -26,10 +28,12 @@ public class AxeController : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.LeftArrow)) // Move axe to the left
             {
                 MoveAxe(leftPosition, false);
+                direction = -1;
             }
             else if (Input.GetKeyDown(KeyCode.RightArrow)) // Move axe to the right
             {
                 MoveAxe(rightPosition, true);
+                direction = 1;
             }
             else if (Input.GetKeyDown(KeyCode.Space)) // Perform chop
             {

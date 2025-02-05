@@ -4,6 +4,7 @@ public class StartScript : MonoBehaviour
 {
     public GameObject branch;
     public GameObject trunk;
+    public GameObject axe;
     public int branchRange = 4;
     public int moveCount = 1;
     private int currentDirection = 0;
@@ -39,6 +40,7 @@ public class StartScript : MonoBehaviour
             Vector3 branchPosition = new Vector3(trunk.transform.position.x + branchDirection * (1+branch.transform.localScale.x/2), currentHeight, 0);
             GameObject newBranch = Instantiate(branch, branchPosition, Quaternion.identity);
             newBranch.GetComponent<branchScript>().direction = branchDirection;
+            newBranch.transform.parent = trunk.transform;
         }
     }
 
