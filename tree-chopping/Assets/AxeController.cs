@@ -3,8 +3,8 @@ using System.Collections;
 
 public class AxeController : MonoBehaviour
 {
-    private Vector3 rightPosition = new Vector3(2, -4, 0);  // Right side position
-    private Vector3 leftPosition = new Vector3(-2, -4, 0);  // Left side position
+    private Vector3 rightPosition = new Vector3(2, 1, 0);  // Right side position
+    private Vector3 leftPosition = new Vector3(-2, 1, 0);  // Left side position
     private bool isRight = true;  // Track which side the axe is on
     private bool isChopping = false; // Prevent multiple swings
     private Vector3 originalScale; // Store the original scale
@@ -62,8 +62,8 @@ public class AxeController : MonoBehaviour
         Quaternion originalRotation = Quaternion.Euler(0, 0, 0); // Neutral position
         Quaternion tiltBackRotation = Quaternion.Euler(0, 0, isRight ? -40 : 40); // Tilt back first
         Quaternion chopRotation = Quaternion.Euler(0, 0, isRight ? 50 : -50); // Swing forward into tree
-        Vector3 startPosition = new Vector3(isRight ? 1 : -1, -3, 0);
-        Vector3 originalPosition = new Vector3(isRight ? 2 : -2, -4, 0);
+        Vector3 startPosition = new Vector3(isRight ? 1 : -1, 1, 0);
+        Vector3 originalPosition = new Vector3(isRight ? 2 : -2, 1, 0);
 
         transform.position = startPosition;
 

@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: fa465a8aedbf94f8ab1eea0a9b060000
+  productGUID: b6177df5b4288ea4084bb66e7c289d3f
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: tree chopping
+  productName: GameDesignWeek2Project
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -609,14 +609,14 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: tree chopping
+  metroPackageName: GameDesignWeek2Project
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: tree chopping
+  metroApplicationDescription: GameDesignWeek2Project
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -687,11 +687,11 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 013b62dd-6c5d-446a-b949-a0856515a1b7
+  cloudProjectId: e176b9c4-adfc-4896-b1ed-2e9c3daffb8c
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: tree chopping
-  organizationId: dauphineezc
+  projectName: GameDesignWeek2Project
+  organizationId: unity_2f0eb7fc0dd6752fa163
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

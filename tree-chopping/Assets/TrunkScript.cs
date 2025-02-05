@@ -14,7 +14,7 @@ public class TrunkScript : MonoBehaviour
 
         transform.localScale = new Vector3(transform.localScale.x, newHeightScale, transform.localScale.z);
 
-        transform.position = new Vector3(transform.position.x, (newHeightScale-prevHeightScale) / 2, transform.position.z);
+        transform.position = new Vector3(transform.position.x, (newHeightScale) / 2, transform.position.z);
     }
 
     // Update is called once per frame
